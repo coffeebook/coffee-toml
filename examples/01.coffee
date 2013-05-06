@@ -6,7 +6,7 @@
 #
 # Imho? software is for humans, not the other way around.
 
-{TOML} = require "../../coffeescripts/toml.coffee"
+{TOML} = require "../coffeescript/toml.coffee"
 
 console.log TOML.parse """
 [workflow.stack]
