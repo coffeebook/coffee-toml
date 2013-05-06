@@ -1,0 +1,27 @@
+{
+  "name": "coffee-toml",
+  "version": "0.0.1",
+  "description": "Forked coffee-toml to be easier with node.js",
+  "main": "main.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/coffeebook/coffee-toml.git"
+  },
+  "keywords": [
+    "coffee-script",
+    "toml",
+    "markup",
+    "ini",
+    "settings",
+    "short-hand",
+    "simple",
+    "elegant"
+  ],
+  "author": "Supersym <rob.jentzema+npm@googlemail.com>",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "c15ac5dc13b8b46b86058a1e21a99f73eb0c6a12"
+}
