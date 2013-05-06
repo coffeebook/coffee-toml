@@ -6,9 +6,13 @@
 #
 # Imho? software is for humans, not the other way around.
 
-{TOML} = require './coffeescripts/toml.coffee'
+{TOML} = require "../../coffeescripts/toml.coffee"
 
 console.log TOML.parse """
+[workflow.stack]
+machine = "nehalem"
+architecture = "x86_64"
+
 [stack.selected]
 language = "coffeescript"
 extensions = [ "litcoffee",

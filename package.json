@@ -4,11 +4,12 @@
   "description": "Forked coffee-toml to be easier with node.js",
   "main": "main.coffee",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "coffee extra/examples/01.coffee"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/coffeebook/coffee-toml.git"
+    "url": "https://github.com/coffeebook/coffee-toml.git"
   },
   "keywords": [
     "coffee-script",
